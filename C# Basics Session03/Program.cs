@@ -56,6 +56,13 @@ namespace C__Basics_Session03
             String sentence = "Book: " + Title + ",\nPages: " + pages;
             Console.WriteLine(sentence);
             #endregion
+            #region Question 6
+            //Build the same sentence as above, but using string interpolation ($"...").
+            String Title2 = "Clean Code";
+            int page = 464;
+            string sentence1 = $"Book: {Title2},\n pages: {page}";
+            Console.WriteLine(sentence1);
+            #endregion
 
         }
     }
