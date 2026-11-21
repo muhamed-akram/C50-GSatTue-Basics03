@@ -63,6 +63,14 @@ namespace C__Basics_Session03
             string sentence1 = $"Book: {Title2},\n pages: {page}";
             Console.WriteLine(sentence1);
             #endregion
+            #region Question 7
+            //Build the same sentence again, but using string.Format().
+            string Title3 = "Clean Code";
+            int page3 = 464;
+            string sentence3 = string.Format("Book: {0},\n Page: {1}", Title3 , page3);
+            Console.WriteLine(sentence3);
+
+            #endregion
 
         }
     }
