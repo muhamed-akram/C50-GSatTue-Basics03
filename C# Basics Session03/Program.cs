@@ -39,6 +39,13 @@ namespace C__Basics_Session03
             s.Append(" - Updated");
             Console.WriteLine(s);
             #endregion
+            #region Question 4
+            //Using the StringBuilder from the question above,
+            //use Replace() to change "Book List" into "Library". 
+            //Print the result.
+            s.Replace("Book List", "Library");
+            Console.WriteLine(s);
+            #endregion
 
         }
     }
