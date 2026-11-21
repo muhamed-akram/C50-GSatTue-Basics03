@@ -80,6 +80,16 @@ namespace C__Basics_Session03
                 Console.WriteLine("Long Book");
             else Console.WriteLine("Short Book");
             #endregion
+            #region Question 9
+            //Given int pages = 464; and bool isAvailable = true;,
+            //print "You can borrow this book" only if pages is 
+            //greater than 300 and isAvailable is true.Use the && operator.
+            int Pages5 = 464;
+            bool isAvilable = true;
+            if(Pages5 > 300 && isAvilable == true)
+                Console.WriteLine("You can borrow this book");
+
+            #endregion
 
         }
     }
