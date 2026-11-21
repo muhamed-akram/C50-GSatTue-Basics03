@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Security.Cryptography;
+using System.Text;
 using System.Threading.Channels;
 
 namespace C__Basics_Session03
@@ -26,8 +27,17 @@ namespace C__Basics_Session03
             string s1 = "Clean Code";
             string s2 = "Clean Code";
 
-            Console.WriteLine(ReferenceEquals(s1, s2)); 
+            Console.WriteLine(ReferenceEquals(s1, s2));
 
+            #endregion
+            #region Question3
+            //Create a StringBuilder, Append() the text "Book List", \
+            //then Append() " - Updated" onto the same 
+            //object.Print the final result.
+            StringBuilder s = new StringBuilder();
+            s.Append("Book List");
+            s.Append(" - Updated");
+            Console.WriteLine(s);
             #endregion
 
         }
