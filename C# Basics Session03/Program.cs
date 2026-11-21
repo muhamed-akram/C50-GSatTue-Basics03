@@ -170,6 +170,20 @@ namespace C__Basics_Session03
                 Console.WriteLine(Book);
             }
             #endregion
+            #region Question 17
+            //Using the same books array, print every title
+            //except "The Pragmatic Programmer" (skip it with 
+            //continue, don't stop the loop). 
+            foreach (string book2 in books)
+            {
+                if (book2 == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+
+                Console.WriteLine(book2);
+            }
+            #endregion
         }
     }
 }
