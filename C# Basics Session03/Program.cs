@@ -112,6 +112,13 @@ namespace C__Basics_Session03
 
 
             #endregion
+            #region Question 11
+            //Given int pages = 464;, use the ternary operator to store "Long Book"
+            //or "Short Book" into a 
+            //variable sizeLabel(same rule as question 8: long if pages > 300).
+            int pages11 = 464;
+            string sizelabel = pages11 > 300 ? "Long Book" : "Short Book";
+            #endregion
         }
     }
 }
